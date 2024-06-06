@@ -76,10 +76,10 @@ vault:
   imagesecretname: ""
   #Enable or disable TLS for vault communication
   #Eg. tls: true
-  tls: 
+  tls: false
   #kuberenetes secret for vault ca.cert
   #Eg. tlssecret: vaultca
-  tlssecret: vaultca
+  #tlssecret: vaultca
 
 
 service:

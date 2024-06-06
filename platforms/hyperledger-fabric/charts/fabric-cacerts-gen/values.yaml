@@ -22,7 +22,7 @@ metadata:
   #NOTE: Provide labels other than name, release name , release service, chart version , chart name , app.
   #Eg. labels:
   #      role: anchorpeer
-  labels: anchorpeer
+  #labels: anchorpeer
 
 vault:
   #Provide the vaultrole for an organization

@@ -64,7 +64,7 @@ spec:
       {{ if .Values.vault.tls  }}
       - name: vaultca
         secret:
-          secretName: "{{ .Values.vault.tls }}"
+          secretName: "{{ .Values.vault.tlssecret }}"
           items:
           - key: ca.crt.pem
             path: ca-certificates.crt

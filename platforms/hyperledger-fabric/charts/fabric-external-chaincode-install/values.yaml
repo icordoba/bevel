@@ -76,7 +76,7 @@ vault:
   #Kuberenetes secret for vault ca.cert
   #Enable or disable TLS for vault communication if value present or not
   #Eg. tls: vaultca
-  tls: 
+  #tls: vaultca
   #Provide the path of the package details saved in base64 format
   #Eg. secretgitprivatekey: secretsv2/data/crypto/peerOrganizations/org1-net/.../example/package/v1
   chaincodepackageprefix: secretsv2/data/crypto/peerOrganizations/org1-net/chaincodes/example/package/v1
